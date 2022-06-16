@@ -39,10 +39,26 @@ header{
 }
 
 .p-header{
-    font-size: 2em;
+    font-size: 2.5em;
     color: #fff;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    animation: animaP 5s  alternate infinite;
+}
+
+@keyframes animaP{
+    0%{
+        font-size: 10%;
+    }
+    50%{
+        font-size: 100% 50%
+    }
+    100%{
+        transition: 50%;
+    }
+    
 }
 
 
