@@ -88,3 +88,13 @@ footer{
     height: 8vh;
     background-color: #444;
 }
+
+
+.p-footer{
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+}
