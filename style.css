@@ -2,8 +2,12 @@
 body{
     background-color: #444;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-areas: 
+        "header header header",
+        "nav nav nav",
+        "main main main",
+        "footer footer footer";
 }
 .navbar{
     background-color: #d81;
