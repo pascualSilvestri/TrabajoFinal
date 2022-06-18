@@ -4,13 +4,10 @@ body{
     grid-template-areas: 
         "main main main",
         "footer footer footer";
-    background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
-    background-size: 500%;
-    animation: mainAnimado 10s ease-in-out infinite;
+    background-color: #777;
 }
 .navbar{
     background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
-    background-size: 500%;
     border-radius: 0 0 10px 10px;
     margin-bottom:20px ;
 }
@@ -43,6 +40,11 @@ body{
 main{
     width: 100vw;
     height: auto;
+    border-radius: 30px;
+    background-color: #92B4EC;
+    padding: 20px;
+    margin:30px
+
 }
 .fotos{
     width: 100%;
@@ -63,27 +65,22 @@ main{
 
 .foto-container{
     width: 100%;
-    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: space-around;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 10px; */
     margin-top: 20px;
-    background-color: #fff;
+    background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
+    background-size: 500%;
+    animation: mainAnimado 10s ease-in-out infinite;
     padding: 20px;
     border-radius: 20px;
     justify-items: center;
 }
-
-
-.img-entregas img{
-    max-width: 200px;
-    min-width: 50px;
-    max-height: 200px;
-    min-height: 50px;
-    object-fit: cover;
-    border-radius: 10px;    
-}
-
 
 
 
@@ -103,4 +100,32 @@ footer{
     margin-bottom: 0;
     text-align: center;
     text-shadow: 0 0 10px #000;
+}
+
+.img{
+    width: 200px;
+    min-width: 50px;
+    height: 200px;
+    min-height: 50px;
+    object-fit: cover;
+    border-radius: 10px;    
+    transition: all 0.5s;
+}
+
+
+.activar{
+    position:absolute;
+    background-color: #3338;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.activar2{
+    position:absolute;
+    width: 40%;
+    height: 80%;
+    margin: 0;
 }
