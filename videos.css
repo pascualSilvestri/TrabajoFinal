@@ -1,0 +1,161 @@
+body{
+    width: 100vw;
+    display: grid;
+    background-color: #92B4EC;
+    grid-template-areas: 
+        "main main main",
+        "footer footer footer";
+}
+.navbar{
+    background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
+    border-radius: 0 0 10px 10px;
+    margin-bottom:20px ;
+}
+
+@keyframes animaP{
+    0%{
+        font-size: 10%;
+    }
+    50%{
+        font-size: 100% 50%
+    }
+    100%{
+        transition: 50%;
+    }
+    
+}
+
+@keyframes mainAnimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+main{
+    width: 100vw;
+    height: auto;
+    border-radius: 30px;
+    background-color: #92B4EC;
+    padding: 20px;
+
+}
+.fotos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-videos{
+    font-size: 100vw;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 0 0 10px #000000;   
+}
+
+.videos-container{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
+    background-size: 500%;
+    animation: mainAnimado 10s ease-in-out infinite;
+    padding: 20px;
+    border-radius: 20px;
+    justify-items: center;
+}
+
+
+
+
+
+
+.videos-entregas{
+    width: 500px;
+    min-width: 50px;
+    height: 300px;
+    min-height: 50px;
+    object-fit: cover;
+    border-radius: 10px;    
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+
+.activar{
+    position:absolute;
+    background-color: #3338;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.activar2{
+    position:absolute;
+    transform: scale(2.5);
+    margin: 0;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    .activar{
+        position:absolute;
+        background-color: #3338;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .activar2{
+        position:absolute;
+        transform: scale(2);
+        margin: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: #444;
+    margin-top: 10px;
+}
+
+
+.p-footer{
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+}
+
+
+
+
