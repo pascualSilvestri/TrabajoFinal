@@ -86,3 +86,16 @@ footer{
         background-position: 0% 50%;
     }
 }
+
+@media screen and (max-width: 600px){
+    main{
+        height: 100vh;
+    }
+    .div-form{
+        width: 100%;
+    }
+    form{
+        width: 90%;
+    }
+}
+    
