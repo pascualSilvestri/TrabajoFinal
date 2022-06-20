@@ -32,9 +32,9 @@ header{
 }
 
 .p-header{
-    font-size: 2.5em;
-    color: #fff;
-    margin-top: 10%;
+    font-size: 3em;
+    color: #FFD24C;
+    margin-top: 20%;
     margin-bottom: 0;
     text-align: center;
     text-shadow: 0 0 10px #000;
@@ -93,6 +93,13 @@ footer{
 
 
 @media screen and (max-width: 600px){
+
+
+    header{
+        width: 100vw;
+        height: 65vh;
+        background-position: center;
+    }
     .navbar{
         background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
         background-size: 500%;
@@ -100,7 +107,7 @@ footer{
         border-radius: 0 0 10px 10px;
     }
     .p-header{
-        font-size: 1em;
+        font-size: 1.5em;
     }
     
 }
