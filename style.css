@@ -75,6 +75,31 @@ main{
     }
 }
 
+.contactos{
+    width: 100vw;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD24C;
+}
+
+.img-contacto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.img-contac{
+    transform: scale(0.7);
+}
+
+
 footer{
     width: 100vw;
     height: 8vh;
