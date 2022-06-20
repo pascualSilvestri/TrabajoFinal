@@ -108,15 +108,19 @@ footer{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 780px){
     main{
-        height: 100vh;
+        height: auto;
     }
     .div-form{
         width: 100%;
     }
     form{
         width: 90%;
+    }
+    .p-main-img{
+        font-size: 1em;
+        margin-bottom: 20px;
     }
 }
     
