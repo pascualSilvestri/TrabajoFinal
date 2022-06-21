@@ -8,9 +8,6 @@ const imgActiva = document.querySelector(".img-interna");
 
 let indiceImg = 0;
 
-
-
-
 /* Abrir */
 
 const abrir = (e) => {
@@ -53,3 +50,30 @@ btn_atras.addEventListener("click", atrazar);
 
 
 
+/* Video */
+
+const video = document.querySelectorAll("#videos-entregas");
+const btnCer = document.querySelector("#btn-cer");
+const btnAtr = document.querySelector("#btn-atr");
+const btnAde = document.querySelector("#btn-ade");
+const principal = document.querySelector(".principal");
+const videoActivo = document.querySelector(".video-act");
+let indiceVideo = 0;
+
+
+/* Abrir */
+
+const abre = (e) => {
+    videoActivo.src = e.target.src;
+    principal.style.display = "flex";
+    indiceVideo = Array.from(img).indexOf(e.target);
+};
+
+video.forEach(video => video.addEventListener("click", abre));
+/* Cerrar */
+
+
+/* Adelante */
+
+
+/* atras */

@@ -75,12 +75,7 @@ main{
     animation: mainAnimado 10s ease-in-out infinite;
     padding: 20px;
     border-radius: 20px;
-    justify-items: center;
 }
-
-
-
-
 
 
 .videos-entregas{
@@ -92,26 +87,27 @@ main{
     border-radius: 10px;    
     transition: all 0.5s;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
-
-
-
-
 
 
 @media screen and (max-width: 700px){
+    .videos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
   .videos-entregas{
-    width: 200px;
-    height: 100px;
+    width: 90%;
+    height: 80%;
   }
     
 }
-
-
-
-
-
-
 
 
 footer{
@@ -134,3 +130,52 @@ footer{
 
 
 
+.principal{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #444c;
+    z-index: 20;
+}
+
+.interno{
+    width:50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+}
+
+.video-act{
+    width: 100%;
+    height: 100%;
+}
+
+#btn-cer{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#btn-atr{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 3rem;
+}
+
+#btn-ade{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 3rem;
+}

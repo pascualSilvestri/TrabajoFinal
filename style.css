@@ -63,6 +63,16 @@ main{
     animation: mainAnimado 10s ease-in-out infinite;
 }
 
+.col-md-4{
+    margin-bottom: 4%;
+}
+
+.card-body{
+    background-color: #aaa;
+    padding: 2% 2% 2% 2%;
+    border-radius: 0 0 5px 5px;
+}
+
 @keyframes mainAnimado{
     0%{
         background-position: 0% 50%;
@@ -98,7 +108,20 @@ main{
 .img-contac{
     transform: scale(0.7);
 }
+.p-contactos-img{
+    font-size: 2em;
+    margin-top: 40px;
+    text-align: center;
+}
 
+.telefonos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px 0;
+}
 
 footer{
     width: 100vw;
