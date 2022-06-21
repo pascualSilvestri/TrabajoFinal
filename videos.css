@@ -8,8 +8,6 @@ body{
 }
 .navbar{
     background-image: linear-gradient(135deg, #92B4EC,#FFFFFF,#FFE69A,#FFD24C);
-    border-radius: 0 0 10px 10px;
-    margin-bottom:20px ;
 }
 
 @keyframes animaP{
@@ -41,7 +39,6 @@ body{
 main{
     width: 100vw;
     height: auto;
-    border-radius: 30px;
     background-color: #92B4EC;
     padding: 20px;
 
@@ -102,6 +99,8 @@ main{
         align-items: center;
         justify-content: center;
     }
+
+
   .videos-entregas{
     width: 90%;
     height: 80%;
@@ -113,8 +112,7 @@ main{
 footer{
     width: 100vw;
     height: 8vh;
-    background-color: #444;
-    margin-top: 10px;
+    background-color: #FFE69A;
 }
 
 
