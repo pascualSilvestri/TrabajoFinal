@@ -181,3 +181,48 @@ footer{
     }
     
 }
+
+.contenedor-btn-footer{
+    margin-top:10px;
+}
+
+.btn-footer{
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD24C;
+    margin: 0 20px;
+    
+}
+
+
+.btn-footer:hover{
+    background-image: linear-gradient(135deg, #FFD24C,#FFFFFF,#FFE69A);
+    background-size: 500%;
+    animation: mainAnimado 2 ease-in-out infinite;
+    animation: rotate 1s ease;
+    box-shadow: 0 0 10px #000;
+}
+
+@keyframes rotate {
+    0% {
+        transform:rotateZ(0deg);
+    }
+    30%{
+        transform:rotateZ(-5deg);
+    }
+    60%{
+        transform:rotateZ(5deg);
+    }
+    100%{
+        transform:  rotateZ(0deg);
+    }
+}
+
+
+
+
+
+.btn-footer a{
+    text-decoration: none;
+    color:#444;
+}
