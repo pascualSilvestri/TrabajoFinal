@@ -103,13 +103,6 @@ main{
     background-blend-mode: soft-light;
     box-shadow: 0 -1px 10px #f33a;
 }
-
-
-.portafolio{
-    width: 100%;
-    height: 33%;
-}
-
 .h2-section{
     color:#888;
     font-family: 'Nuosu SIL', serif;
@@ -120,6 +113,28 @@ main{
     padding: 20px;
 
 }
+
+.portafolio{
+    width: 100%;
+    height: 33%;
+
+}
+.porta{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.port{
+    width: 30%;
+    height: 100%;
+    background-color: #000;
+    box-shadow: 0 0 20px #fff;
+
+}
+
 
 
 
