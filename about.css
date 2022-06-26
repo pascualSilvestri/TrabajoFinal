@@ -291,6 +291,10 @@ footer{
         width: 70%;
         height: 80%;
     }
+    
+    form{
+        width: 90%;
+    }
 }
 
 
@@ -306,5 +310,9 @@ footer{
         font-family: 'Nuosu SIL', serif;
         text-align:center;
         color:rgb(85, 74, 74);
+    }
+    .telf{
+        color:rgb(78, 47, 26);
+        font-size: 0.9em;
     }
 }
