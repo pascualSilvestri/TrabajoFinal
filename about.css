@@ -15,11 +15,12 @@ body{
 }
 
 .navbar{
-    background: radial-gradient(circle,rgb(50, 61, 167) , rgb(151, 28, 28) );
+    /* background: radial-gradient(circle,rgb(50, 61, 167) , rgb(151, 28, 28) ); */
+    background-color: rgb(97, 67, 11);
     background-size: 500%;
     background-position: center center;
-    animation: nav 4s alternate infinite;
-    box-shadow: 0px 2px 10px #f33a;
+    /* animation: nav 4s alternate infinite; */
+    box-shadow: 0px 2px 10px rgba(240, 183, 28, 0.667);
 }
 
 .a-nav{
@@ -43,7 +44,8 @@ body{
 header{
     width: 100%;
     height: 90vh;
-    background: radial-gradient(circle,rgb(151, 28, 28),rgb(50, 61, 167), rgb(151, 28, 28));
+    background-color: rgb(199, 199, 199);
+    /* background: radial-gradient(circle,rgb(87, 55, 18),rgb(194, 194, 194), rgb(100, 70, 15)); */
     background-position: center center;
     /* background-color: #000f; */
     display: flex;
@@ -52,8 +54,8 @@ header{
     align-items: center;
     padding-top: 50px;
     box-shadow: 0px 0 10px #fff;
-    animation: nav 4s alternate infinite;
-}
+    /* animation: nav 4s alternate infinite;*/
+} 
 
 
 .div-foto{
@@ -64,9 +66,9 @@ header{
     align-items: center;
     justify-content: center;
     border-radius: 50%; 
-    background-color: #000;
+    background-color: rgb(201, 201, 201);
     padding:1%;
-    box-shadow: 10px 10px 50px #f33a;
+    box-shadow: 0px 0px 50px rgba(177, 127, 18, 0.658);
     /* animation: rotar 4s linear infinite; */
 }
 
@@ -92,16 +94,18 @@ header{
     margin-top:20px;
     font-family: 'Nuosu SIL', serif;
     text-align:center;
+    color:rgb(85, 74, 74);
 }
 
 
 main{
     width: 100%;
-    height: 200vh;
-    background:url(imagen/main.jpg) no-repeat center;
-    background-color: #000a;
+    height: auto;
+    /* background:url(imagen/main.jpg) no-repeat center; */
+    background-color: rgb(226, 169, 84);
     background-blend-mode: soft-light;
-    box-shadow: 0 -1px 10px #f33a;
+    box-shadow: 0 -1px 10px rgb(224, 132, 27);
+    padding-bottom: 50px;
 }
 .h2-section{
     color:#888;
@@ -116,12 +120,12 @@ main{
 
 .portafolio{
     width: 100%;
-    height: 33%;
-
+    height: auto;
+    padding-bottom: 10px;
 }
 .porta{
     width: 100%;
-    height: 70%;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -130,36 +134,53 @@ main{
 .port{
     width: 30%;
     height: 100%;
-    background-color: #000;
+    background-color: rgb(248, 229, 229);
     box-shadow: 0 0 20px #fff;
 
 }
 
 
 
-
-
-
-
-
-
 .consulta{
     width: 100%;
-    height: 33%;
+    height: auto;
+    padding-bottom: 10px;
 }
+.div-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+form{
+    width:50%;
+    height: 100%;
+    background:radial-gradient(135deg, #66451a,#965f21,#FFE69A,#FFD24C);
+    background-position: center center;
+    background-size: 500%;
+    padding: 20px;
+    animation: nav 4s alternate infinite;
+    border-radius: 30px;
+}
+
 
 
 .contactos{
     width: 100%;
-    height: 33%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .h2-contactos{
     width: 100%;
+    height: auto;
 }
 
 .telefonos{
@@ -173,7 +194,7 @@ main{
 }
 
 .telf{
-    color:#aaa;
+    color:rgb(78, 47, 26);
 }
 
 .iconos{
@@ -185,6 +206,7 @@ main{
 
 i{
     font-size:4em;
+    color:rgb(78, 47, 26);
 }
 
 
@@ -195,5 +217,5 @@ i{
 footer{
     width: 100%;
     height: 10vh;
-    background: radial-gradient(circle,rgb(50, 61, 167) , rgb(151, 28, 28) );
+    background-color: #66451a;
 }
