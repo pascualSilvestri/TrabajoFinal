@@ -164,6 +164,7 @@ footer{
 .contenedor-btn-footer{
     margin-top:10px;
     display:flex;
+    justify-content: center;
 }
 
 .btn-footer{
