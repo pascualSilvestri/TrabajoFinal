@@ -163,6 +163,7 @@ footer{
 
 .contenedor-btn-footer{
     margin-top:10px;
+    display:flex;
 }
 
 .btn-footer{
@@ -204,4 +205,15 @@ footer{
 .btn-footer a{
     text-decoration: none;
     color:#444;
+}
+
+
+@media screen and (max-width:400px){
+    .btn-footer{
+        font-size: 0.9em;
+    }
+
+    .p-footer{
+        font-size: .5em;
+    }
 }
