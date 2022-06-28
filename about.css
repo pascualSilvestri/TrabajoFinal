@@ -88,29 +88,6 @@ header{
     /* animation: rotar 4s linear infinite; */
 }
 
-.div-foto::before{
-    content: " ";
-    display: block;
-    background-color: rgba(185, 121, 0);
-    border-radius:50%;
-    width:45%;
-    height:70%;
-    position: absolute;
-    left: 350px;
-    z-index: -1;
-}
-.div-foto::after{
-    content: " ";
-    display: block;
-    background-color: rgba(185, 121, 0);
-    border-radius:50%;
-    width:45%;
-    height:70%;
-    position: absolute;
-    right: 350px;
-    z-index: -1;
-}
-
 
 .foto{
     width: 100%;
@@ -132,7 +109,6 @@ main{
     /* background:url(imagen/main.jpg) no-repeat center; */
     background-color: rgb(226, 169, 84);
     background-blend-mode: soft-light;
-    box-shadow: 0 -1px 10px rgb(224, 132, 27);
     padding-bottom: 50px;
 }
 .h2-section{
@@ -143,7 +119,6 @@ main{
     background-color: #0009;
     box-shadow: 0 0 20px #fff;
     padding: 20px;
-
 }
 
 
@@ -388,31 +363,6 @@ footer{
         width: 50%;
     }
 
-
-
-
-    .div-foto::before{
-        content: " ";
-        display: block;
-        background-color: rgba(185, 121, 0);
-        border-radius:50%;
-        width:50%;
-        height:68%;
-        position: absolute;
-        left: 300px;
-        z-index: -1;
-    }
-    .div-foto::after{
-        content: " ";
-        display: block;
-        background-color: rgba(185, 121, 0);
-        border-radius:50%;
-        width:50%;
-        height:68%;
-        position: absolute;
-        right: 300px;
-        z-index: -1;
-    }
 }
 
 
@@ -455,28 +405,10 @@ footer{
         margin:50px;
         width: 50%;
     }
+    .h2-section{
+        font-size:2em;
 
-    .div-foto::before{
-        content: " ";
-        display: block;
-        background-color: rgba(185, 121, 0);
-        border-radius:50%;
-        width:75%;
-        height:45%;
-        position: absolute;
-        left: 100px;
-        z-index: -1;
     }
-    .div-foto::after{
-        content: " ";
-        display: block;
-        background-color: rgba(185, 121, 0);
-        border-radius:50%;
-        width:75%;
-        height:45%;
-        position: absolute;
-        right: 100px;
-        z-index: -1;
-    }
+
     
 }
